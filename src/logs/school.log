@@ -1,0 +1,13 @@
+utils.logging_utils-INFO-2020-09-08 12:51:58,150: initializing basic logger.
+utils.redis_utils-INFO-2020-09-08 12:51:58,194: created hash for best student. num items written: 0
+utils.redis_utils-INFO-2020-09-08 12:51:58,196: created hash for easiest course. num items written: 0
+werkzeug-WARNING-2020-09-08 12:51:58,224:  * Debugger is active!
+werkzeug-INFO-2020-09-08 12:51:58,225:  * Debugger PIN: 245-387-692
+utils.dbutils-INFO-2020-09-08 12:52:42,664: unpacking student params. id: 0, fname: yoel, lname: ross, email: y.r@g.com
+utils.dbutils-INFO-2020-09-08 12:52:42,666: validation: id: True, fn: True, ln: True, em: True
+utils.dbutils-INFO-2020-09-08 12:52:42,705: getting student with id: 0
+utils.dbutils-INFO-2020-09-08 12:52:42,728: writing new student to db. id: 0, _id: 5f577e9a1dfb427a4bcb48a1
+__main__-INFO-2020-09-08 12:52:42,729: creating student: 0, invalidating caches.
+werkzeug-INFO-2020-09-08 12:52:42,731: 172.20.0.1 - - [08/Sep/2020 12:52:42] "[37mPOST /students HTTP/1.1[0m" 200 -
+utils.dbutils-INFO-2020-09-08 12:53:11,175: getting student with id: 0
+werkzeug-INFO-2020-09-08 12:53:11,179: 172.20.0.1 - - [08/Sep/2020 12:53:11] "[37mGET /students?id_number=0 HTTP/1.1[0m" 200 -

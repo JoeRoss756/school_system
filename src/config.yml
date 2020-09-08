@@ -1,0 +1,16 @@
+# connection parameters for redis client
+redis:
+  host: redis
+  port: 6379
+
+# connection parameters for pymongo client
+mongo:
+  host: mongodb
+  port: 27017
+  username: admin
+  password: password
+  authSource: admin
+
+app:
+  port: 8889
+  debug: true
